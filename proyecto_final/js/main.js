@@ -59,12 +59,12 @@ function palabraRandomica(){
 
 
 function actualizarTiempo(){
-    //if (text.value== leters){
+    
 
         time--;
         tiempoRestante.innerText= "Time left: " + (1 + time) + " s";
 
-    //}
+   
    
     if(time==0){
         tiempoRestante.innerText="Game Over";
@@ -95,7 +95,7 @@ function updateScore(){
 
 function updateTime(){
     time+=3 
-    //tiempoAdd.innerText= ptostime + time;
+    
     tiempoRestante.innerText= "Time left: " + (time) + " s";
 }
 
@@ -115,9 +115,7 @@ text.addEventListener("keyup", function(e){
 })
 
 //código general------------------------------------------------------
-//newTitle=document.querySelector("h1")
-//newP=document.querySelector("p")
-//button=document.createElement("div")
+
 
 function gameOver(){
 
