@@ -47,8 +47,6 @@ let idInterval = setInterval(actualizarTiempo,1000);
 //-------------------------------keydown
 let text=document.querySelector("#text");
 
-
-//enfoca el input
 text.focus();
 
 //funciones-----------------------------------------------------------
@@ -59,7 +57,7 @@ function palabraRandomica(){
     return newWord;
 }
 
-const leters= ["a", "b", "c", "d","e"];
+
 function actualizarTiempo(){
     //if (text.value== leters){
 
@@ -94,8 +92,7 @@ function updateScore(){
     return puntos
 }
 
-//let tiempoAdd=document.querySelector("#timeSpan");
-//score.innerHTML=time;
+
 function updateTime(){
     time+=3 
     //tiempoAdd.innerText= ptostime + time;
