@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+    crossorigin="anonymous">  
+
+    <link rel="stylesheet" href="css/style.css">
+    
+    
+
+    <title>Typer D.</title>
+    <!-- <link rel="stylesheet" href="./static/css/stylesGame.css" /> -->
+  </head>
+
+  <body>
+      <br>
+      <br>
+
+    <div class="container">
+        <div class="main">
+            <!-- <h2>⌨️   TYPER 3000   ⌨️</h2> -->
+            <img id="foto" src="https://us.123rf.com/450wm/cosmaa/cosmaa1802/cosmaa180200372/96196411-manos-en-el-teclado-de-la-computadora.jpg?ver=6" alt="tipeando">
+            <br>
+        <h2 class="titulo">Write against time</h2>
+        <br>
+        <h1 id="randomWord">word</h1>
+        <input
+          type="text"
+          id="text"
+          autocomplete="off"
+          placeholder="Test your typing"
+        />
+        <br>
+       
+        <p class="time-container"><span id="timeSpan"></span></p>
+        <p class="score-container">Score: <span id="score">0</span></p>
+      </div>
+
+      
+      <div id="end-game-container" class="end-game-container">
+      </div>
+        </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>

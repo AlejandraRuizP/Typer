@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar&family=PT+Serif:ital,wght@1,700&family=Public+Sans:wght@200&family=Seymour+One&family=Source+Sans+Pro:wght@200&family=Titan+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Akshar&family=PT+Serif:ital,wght@1,700&family=Press+Start+2P&family=Public+Sans:wght@200&family=Seymour+One&family=Source+Sans+Pro:wght@200&family=Titan+One&display=swap');
+.titulo{
+  font-family: 'Titan One', cursive;
+  font-size: 35px;
+  margin-top: 2%;
+  text-shadow: 2px 2px 5px grey;
+}
+
+body{
+  background: linear-gradient(to right, blue, pink);;
+}
+
+.container{
+  margin: auto;
+  width: 100%;
+  height: 80%;
+  text-align: center;
+  align-items:center;
+  padding-top: 5%;
+  color: white;
+  
+
+}
+
+#text{
+  width: 60%;
+  height: 10%;
+  font-size: 30px;
+  outline: none;
+  border-radius: 25px;
+  border: none;
+  text-align: center;
+}
+
+#foto{
+  border-radius: 50%;
+  width: 30%;
+  height: 30%;
+}
+
+.time-container, .score-container{
+  font-size: 25px;
+  color: white;
+
+}
+
+button{
+  font-size: 20px;
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  
+  color: 
+  #a265ba
+  ;
+
+}
+
+.sintiempo{
+  font-size: 25px;
+  color: white;
+}
